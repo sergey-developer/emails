@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700|Open+Sans&display=swap');
+
+table.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 440px;
+  background: #FFFFFF;
+  position: relative;
+}
+.button a {
+  background: #E0E3FF;
+}
+table.button table td {
+  background: none;
+  background-color: transparent !important;
+  border: none;
+}
+table.button table td a {
+  font-family: 'Nunito', sans-serif;
+  color: #4254F9 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-style: normal;
+  border: 1px solid #4254F9 !important;
+  border-radius: 8px !important;
+  padding: 20px 70px;
+}
+table.button table td:hover {
+  background: none;
+}
+
+
+.user-credential .wrapper-inner {
+  background: #F5F6FE !important;
+  border-radius: 8px;
+  padding: 20px 30px 25px 65px;
+}
+.user-credential th {
+  padding: 0 !important;
+}
+.user-credential .user-credential_login-value {
+  text-decoration: none !important;
+}
+
+
+.footer {
+  background: #4254F9;
+  height: 54px;
+}
+.footer .columns {
+  padding-bottom: 0;
+}
+.footer .wrapper-inner {
+  padding: 16px 80px;
+}
+.footer .container {
+  background: #4254F9;
+}
+
+
+.site-domain,
+.site-domain:visited
+{
+  color: #FFFFFF !important;
+}
+.social__item {
+  width: 17px !important;
+}
+
+
+.simple-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #595E8D;
+}
+.divider {
+  border-width: 0.7px;
+  border-color: #F6F7FB;
+}
+
+.title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #11195B;
+}
+.main-title {
+  font-size: 24px;
+}
+.user-greeting {
+  font-size: 18px;
+}
+
+
+.txt-color-dark {
+  color: #11195B !important;
+}
+
+
+@media screen and (min-width: 374px) and (max-width: 596px) {
+  .user-credential .wrapper-inner {
+    padding: 20px 15px 25px 35px;
+  }
+  .user-credential .user-credential_login-row {
+    margin-bottom: 10px;
+  }
+  .user-credential .user-credential_login-value {
+    padding-left: 16px !important;
+  }
+
+  .row-social-items .columns:first-child,
+  .row-social-items .columns:last-child
+  {
+    width: 0 !important;
+  }
+  .row-social-items .columns:first-child {
+    padding-right: 35px !important;
+  }
+  .row-social-items th.small-2 {
+    width: 19% !important;
+  }
+}

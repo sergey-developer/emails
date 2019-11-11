@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700|Open+Sans&display=swap');
+
+table.container {
+  font-family: 'Open Sans', sans-serif;
+  width: 440px;
+  background: #FFFFFF;
+  position: relative;
+}
+
+
+.footer {
+  background: #4254F9;
+  height: 54px;
+}
+.footer .columns {
+  padding-bottom: 0;
+}
+.footer .wrapper-inner {
+  padding: 16px 80px;
+}
+.footer .container {
+  background: #4254F9;
+}
+
+
+.simple-text {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
+  color: #595E8D;
+}
+.divider {
+  border-width: 0.7px;
+  border-color: #F6F7FB;
+}
+.title {
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  color: #11195B;
+}
+
+
+.user-greeting {
+  font-size: 18px;
+}
+.verification-code {
+  font-weight: 600;
+}
+.site-domain,
+.site-domain:visited
+{
+  color: #FFFFFF !important;
+}
+.social__item {
+  width: 17px !important;
+}
+
+
+.fs-large {
+  font-size: 32px;
+}
+.fs-medium {
+  font-size: 24px;
+}
+
+@media screen and (min-width: 374px) and (max-width: 596px) {
+  .row-social-items .columns:first-child,
+  .row-social-items .columns:last-child
+  {
+    width: 0 !important;
+  }
+  .row-social-items .columns:first-child {
+    padding-right: 35px !important;
+  }
+  .row-social-items th.small-2 {
+    width: 19% !important;
+  }
+}

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600,700|Open+Sans&display=swap');
+
+p {
+  margin: 0 !important;
+}
+
+table th,
+.list-item p,
+.thanks-txt {
+  padding: 0 !important;
+  font-size: 14px !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  color: #595E8D !important;
+  letter-spacing: -0.6px !important;
+}
+table.container {
+  font-family: 'Open Sans', sans-serif !important;
+  width: 440px !important;
+  background: #FFFFFF !important;
+
+  @media (min-width: 320px) and (max-width: 480px) {
+    width: 210px !important;
+  }
+}
+.button a {
+  background: #E0E3FF !important;
+}
+table.button table td {
+  background: none !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+table.button table td a {
+  font-family: 'Nunito', sans-serif !important;
+  color: #4254F9 !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  border: 1px solid #4254F9 !important;
+  border-radius: 8px !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+table.button table td:hover {
+  background: none !important;
+}
+table.button.expanded {
+  width: 82% !important;
+}
+
+
+.what-is-next .wrapper-inner {
+  padding: 22px 10px 20px 50px !important;
+}
+.what-is-next__point {
+  padding-top: 4px !important;
+  padding-right: 20px !important;
+}
+
+
+.contact-info .list-item--text-align-right th {
+  text-align: right !important;
+}
+.contact-info .contact-info__home-airport-value {
+  width: 42.5% !important;
+}
+
+
+.flight-info .wrapper-inner {
+  padding: 25px 20px !important;
+}
+
+
+.bags-info .list-item {
+  padding: 15px 5px 15px 25px !important;
+}
+
+
+.collection-delivery-locations .list-item:last-child {
+  padding: 15px 0 15px 25px !important;
+}
+.collection-delivery-locations .collection-delivery-locations__dme-txt {
+  width: 45% !important;
+}
+.collection-delivery-locations .novotel-moscow-txt {
+  width: 35% !important;
+}
+
+
+.flight-info .wrapper, .what-is-next .wrapper {
+  border-radius: 8px !important;
+}
+.flight-info__point-a-details {
+  width: 57% !important;
+}
+.flight-info__point-b-details {
+  width: 42.3% !important;
+}
+
+
+.invoice .wrapper-inner {
+  padding: 15px !important;
+}
+.invoice .list-item {
+  padding: 15px !important;
+}
+.invoice .wrapper {
+  border-radius: 8px !important;
+}
+
+
+.footer {
+  background: #4254F9 !important;
+  height: 54px !important;
+}
+.footer .columns {
+  padding-bottom: 0 !important;
+}
+.footer .wrapper-inner {
+  padding: 16px 80px !important;
+}
+.footer .container {
+  background: #4254F9 !important;
+}
+.footer span {
+  text-align: center !important;
+}
+
+
+.site-domain,
+.site-domain:visited {
+  color: #FFFFFF !important;
+}
+.thanks-txt p {
+  margin: 0 !important;
+}
+.container.main-title {
+  width: 460px !important;
+}
+.booking-code-txt {
+  width: 49% !important;
+}
+.phone-number {
+  width: 38.5% !important;
+}
+.thank-you-txt {
+  width: 14% !important;
+}
+.bags-porter-team-txt {
+  width: 21% !important;
+}
+
+
+.social__item {
+  width: 17px !important;
+}
+.heading {
+  text-transform: uppercase !important;
+  color: #11195B !important;
+}
+.highlighted-text {
+  font-family: 'Nunito', sans-serif !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  color: #11195B !important;
+  letter-spacing: -0.4px !important;
+}
+.list-item {
+  padding: 15px 25px !important;
+}
+.divider {
+  border-width: 0.7px !important;
+  border-color: #F6F7FB !important;
+}
+
+
+.fs-secondary {
+  font-size: 18px !important;
+}
+.fs-third {
+  font-size: 16px !important;
+}
+.fs-large {
+  font-size: 24px !important;
+}
+
+
+.blue-txt-color {
+  color: #4254F9 !important;
+}
+
+span > a,
+.blue-txt-color > a,
+.blue-txt-color > span { // for email clients
+  color: #4254F9 !important;
+  text-decoration: none !important;
+  user-select: none !important;
+  cursor: pointer !important;
+}
+
+
+.bg-grey {
+  background: #F5F6FE !important;
+}
+.bg-white {
+  background: #FFFFFF !important;
+}
+
+
+@media screen and (min-width: 374px) and (max-width: 596px) {
+  table.button.expanded {
+    width: 100% !important;
+  }
+
+  .what-is-next .wrapper-inner {
+    padding: 22px 10px 20px 10px !important;
+  }
+
+
+  .flight-info .flight-info__abbr {
+    font-size: 20px !important;
+  }
+
+  .contact-info th.small-6,
+  .collection-delivery-locations th.small-6
+  {
+    width: 100% !important;
+  }
+
+  .contact-info .empty-cell,
+  .collection-delivery-locations .empty-cell,
+  .row-thanks-txt-one .empty-cell,
+  .row-thanks-txt-two .empty-cell {
+    width: 0 !important;
+    height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .row-social-items .columns:first-child,
+  .row-social-items .columns:last-child
+  {
+    width: 0 !important;
+  }
+  .row-social-items .columns:first-child {
+    padding-right: 35px !important;
+  }
+  .row-social-items th.small-2 {
+    width: 19% !important;
+  }
+
+}
+
+
